@@ -88,7 +88,7 @@
 
 (define (expense-money cents)
   (let ((s (expense-decimal (abs cents))))
-    (string-append (if (< cents 0) "-" "") "KES "
+    (string-append (if (< cents 0) "-" "") "GHS "
       (expense-group-digits (substring s 0 (- (string-length s) 3)))
       (substring s (- (string-length s) 3) (string-length s)))))
 
@@ -322,7 +322,7 @@
        (spacer height 8)
        (dropdown id type label "Type" entries ("Income" "Expense") location ui)
        (spacer height 12)
-       (label text "Amount in KES" align left size small color ,expense-mint)
+       (label text "Amount in GHS" align left size small color ,expense-mint)
        (textentry id amount text "" keypad numfloat location ui default "0.00" indent 0.1 indentright 0.1)
        (spacer height 12)
        (label text "Category" align left size small color ,expense-muted)
