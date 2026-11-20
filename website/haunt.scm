@@ -66,11 +66,11 @@
          (a (@ (href "https://www.lambdanative.org/")) "LambdaNative")
          ", it was initially intended for "
          (a (@ (href "https://www.learninglions.org/")) "Learning Lions")
-         " students to track their earnings and expenses while learning.")
+         " students to track their earnings and expenses while learning. This is a fork by John Agoe for a Ghanaian Audience.")
 
       (h2 "Features")
       (ul
-        (li "Record income and expenses in Kenyan shillings (KES).")
+        (li "Record income and expenses in Ghana Cedis (GHS).")
         (li "See your balance and separate income and expense totals.")
         (li "Review recent transactions or filter your full history.")
         (li "Choose a category or add your own.")
